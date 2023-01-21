@@ -1,0 +1,190 @@
+/* Fuentes importadas */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url(//db.onlinewebfonts.com/c/8bce55145bb1d819f44532c5dbca032b?family=Edensor+Free);
+
+
+.Container {
+  background-color: #ffffff;
+  height: 500px;
+  width: 100%;
+  box-shadow: 10px 10px 90px -20px #a8a8a8;
+  margin-bottom: 17px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-height {
+  padding-top: 50px;
+}
+
+.Questions {
+  font-family: "Edensor Free", Georgia, "Times New Roman", Times, serif;
+  padding-left: 35px;
+  font-size: 80px;
+  color: #834314;
+}
+
+.Answers {
+  font-family: "Lato", Georgia, "Times New Roman", Times, serif;
+  padding-left: 60px;
+  font-size: 25px;
+  color: rgba(49, 49, 49, 0.849);
+
+  padding-bottom: 110px;
+  padding-right: 60px;
+  text-align: justify;
+}
+
+
+/* BACGGROUND HEADER */
+.img-background {
+  height: 500px;
+  filter: brightness(80%);
+  width: 100%; 
+
+
+}
+
+
+.Title-Historia {
+  font-family: "Edensor Free", Georgia, "Times New Roman", Times, serif;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+}
+
+.container-img {
+  position: relative;
+  text-align: center;
+
+}  
+  
+.container-img img{
+  width: 100%;
+  height: auto;
+}
+
+@supports(object-fit: cover){
+  .container-img img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    
+  }
+}
+
+/* 840, 768, 490 
+
+*/
+
+@media (max-width: 768px) and (min-width: 990px) {
+  .Questions {
+    font-family: "Edensor Free", Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+    font-size: 60px;
+    color: #834314;
+  }
+  
+  .Title-Historia {
+    font-size: 900px;
+  }
+
+  .Answers {
+    font-family: "Lato", Georgia, "Times New Roman", Times, serif;
+    padding-left: 60px;
+    font-size: 20px;
+    color: rgba(49, 49, 49, 0.849);
+    padding-right: 60px;
+    text-align: justify;
+  }
+
+}
+
+@media (max-width: 1300px) {
+  .Questions {
+    font-family: "Edensor Free", Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+    font-size: 65px;
+    color: #834314;
+  }
+
+
+  .Title-Historia {
+    font-size: 100px;
+  }
+  .Answers {
+    font-family: "Lato", Georgia, "Times New Roman", Times, serif;
+    padding-left: 60px;
+    font-size: 25px;
+    color: rgba(49, 49, 49, 0.849);
+    padding-right: 60px;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 670px) {
+  .Questions {
+    font-family: "Edensor Free", Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+    font-size: 55px;
+    color: #834314;
+  }
+
+
+  .Answers {
+    font-family: "Lato", Georgia, "Times New Roman", Times, serif;
+    padding-left: 60px;
+    font-size: 20px;
+    color: rgba(49, 49, 49, 0.849);
+    padding-right: 60px;
+    text-align: justify;
+  }
+
+  .Title-Historia {
+    font-size: 90px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 559px) {
+  .Questions {
+    padding-left: 30px;
+    font-size: 45px;
+    padding-right: 30px;
+  }
+
+  .Answers {
+    padding-left: 40px;
+    font-size: 17px;
+
+    padding-right: 40px;
+  }
+
+  .Title-Historia {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 359px) {
+  .Questions {
+    padding-left: 30px;
+    font-size: 35px;
+    padding-right: 30px;
+  }
+
+  .Answers {
+    padding-left: 40px;
+    font-size: 15px;
+
+    padding-right: 40px;
+  }
+
+  .Title-Historia {
+    font-size: 45px;
+  }
+}
+
+
+
